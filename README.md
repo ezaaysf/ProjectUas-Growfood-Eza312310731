@@ -2,7 +2,9 @@
 # Tugas Project Akhir Pemrograman Mobile 1 
 <br>
 
-# Story Board Project
+<div style="text-align: center;">
+  # Story Board Project
+</div>
 <img src="sb.png" >
 
 # Tampilan Logo 
