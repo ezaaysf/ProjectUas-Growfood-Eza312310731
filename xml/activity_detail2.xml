@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkBlue"
+    tools:context=".detail1">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="374dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/arrow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="120dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/detail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/tofavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            app:srcCompat="@drawable/favmycart" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detailstraw"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="100dp"
+        app:srcCompat="@drawable/mangga_2" />
+
+    <ImageView
+        android:id="@+id/min"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/detailstraw"
+        app:srcCompat="@drawable/min" />
+    <ImageView
+        android:id="@+id/kg"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/detailstraw"
+        app:srcCompat="@drawable/satukg" />
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/detailstraw"
+        android:layout_marginLeft="318dp"
+        app:srcCompat="@drawable/plus"/>
+
+    <ImageView
+        android:id="@+id/freshmanggo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/detailstraw"
+        app:srcCompat="@drawable/freshmanggo" />
+    <ImageView
+        android:id="@+id/deskripsi"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-59dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/freshmanggo"
+        app:srcCompat="@drawable/deskripsimanggo" />
+    <ImageView
+        android:id="@+id/price"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-60dp"
+        android:layout_below="@id/deskripsi"
+        app:srcCompat="@drawable/pricemanggo"/>
+    <ImageView
+        android:id="@+id/costraw"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="-85dp"
+        android:layout_below="@id/deskripsi"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/addcartstraw"/>
+
+
+</RelativeLayout>
