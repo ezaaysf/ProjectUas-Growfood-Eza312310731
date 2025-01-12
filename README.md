@@ -3,7 +3,7 @@
 <br>
 
 # Story Board Project
-<img src="sb.png" width="200" >
+<img src="sb.png" >
 
 # Tampilan Logo 
 <img src="/pem_mobile/logo.png" width="200" >
