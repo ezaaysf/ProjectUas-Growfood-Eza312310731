@@ -3,7 +3,7 @@
 <br>
 
 <div style="text-align: center;">
-  # Story Board Project
+  <h1>Story Board Project</h1>
 </div>
 <img src="sb.png" >
 
