@@ -2,6 +2,9 @@
 # Tugas Project Akhir Pemrograman Mobile 1 
 <br>
 
+# Story Board Project
+<img src="sb.png" width="200" >
+
 # Tampilan Logo 
 <img src="/pem_mobile/logo.png" width="200" >
 
